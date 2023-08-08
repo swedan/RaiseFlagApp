@@ -17,7 +17,7 @@ struct ContentView: View {
             Text("\(Int(raise))")
             HStack{
                 Rectangle()
-                    .frame(width:30, height: 600)
+                    .frame(width:20, height: 600)
                 Text("🇦🇪")
                     .font(.system(size: 110))
                     .padding(-22)
